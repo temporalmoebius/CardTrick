@@ -6,9 +6,9 @@ He asks the player to pick a random number between 1 and 10.
 Then, he deals and reveals, in order, that number of cards.
 
 The last card dealt has a numeric value:
-    1 if rank is Ace
-    2-10 (Face value) if rank is 2-10
-    5 if rank is Jack, Queen or King ("picture")
+    1 if rank is Ace;
+    2-10 (Face value) if rank is 2-10;
+    5 if rank is Jack, Queen or King ("picture");
 
 That value of the last card determines the next number of cards dealt.
 The numeric value of the new card repeats this process,
