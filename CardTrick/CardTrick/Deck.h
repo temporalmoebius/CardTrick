@@ -8,9 +8,8 @@ class Deck
 {
 public:
 	Deck();
-	void shuffle();
-	void set_index(size_t&& n);
-	std::pair<int, char>& get_card();
+	void shuffle();	//Randomly re-arranges Deck.cards
+	std::pair<int, char>& get_card();	//Returns Deck.cards.at(Deck.index)
 	~Deck();
 	size_t index;
 private:
